@@ -103,7 +103,8 @@ function Home(){
         
         const remove = () => {
            compras.tarefas.splice(0, 1)
-           console.log(compras)
+           setInput(' ');
+           setInput('');
         }
         
 
